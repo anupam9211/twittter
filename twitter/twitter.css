@@ -1,0 +1,440 @@
+
+body
+{
+    background-image: url(pic7.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.total
+{
+	background-color: #fff;
+	height: 850px;
+	
+	box-sizing: border-box;
+	margin-top:30px;
+	margin-left: 25px;
+	width: 97%;
+	
+	list-style: none;
+	box-shadow: 2px 2px 12px #ffffff;   
+}
+.grid
+{
+	display: grid;
+	width: 100%;
+	height: 800px;
+	margin:0;
+	padding:0;
+	grid-gap:7px; 
+	box-sizing: border-box;
+	grid-template-rows:10% 16%; 
+	grid-template-columns:13% 20% 45% 20% ;	
+}
+.grid .div1
+{
+	background-color: #FFFFFF;
+	padding:0px;
+	height: 0px;
+	width: 100%;
+	grid-column: -1/1;
+}
+.grid .div1 ul
+{
+	list-style-type: none;
+	margin: 10px;
+	padding:0;
+}
+.grid .div1 ul li
+{
+	margin-left: 30px;
+   margin-top: 5px;
+	display:inline-block;
+}
+.grid .div1 ul li a
+{
+ 	margin: 60px;
+}
+.grid .div1 ul li a b i
+{
+
+	margin: 10px;
+}
+.grid .inp
+{
+	width: 500px;
+	height: 15px;
+	border:4px grey;
+	background-color:#EBF0F7 ;
+	border-radius:10px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.grid .inp input
+{
+	border:none;
+	background-color:#EBF0F7 ;
+	height: 15px;
+	width: 540px;
+}
+.grid .div1 ul li a
+{
+	text-decoration: none;
+	font-family: Arial;
+	color: black;
+}
+.grid .div1  img
+{
+   border-radius: 50%;
+}
+.grid .div2
+{
+	background-color: blue;
+	box-sizing: border-box;
+	grid-column: 2/-1;
+	height:280px;
+}
+
+.grid .div2 img
+{
+width: 100%;
+height: 280px;
+}
+
+.grid .div3
+{
+	background-color: #fff;
+	grid-row:2/4;
+	height: 619px;
+
+}
+.grid .div3 ul
+{
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+.grid .div3 ul li
+{
+  margin:20px;
+}
+.grid .div3 ul li a i
+{
+	margin:10px;
+}
+.grid .div3 ul li a
+{
+	text-decoration: none;
+	font-family: Arial;
+	color: black;
+}
+.grid .div3 ul li a b
+{
+	float: right;
+	margin-top: 10px;
+}
+.grid .div3 ul li a p
+{
+	color: #2BA7EA;
+}
+.grid .div3 button
+{
+	margin-left:30px;	
+	width: 130px; 
+	height: 30px;
+	border-radius: 10px;
+	border:none;
+	background-color: #2BA7EA;
+}
+
+.grid .div3 button a
+{
+	text-decoration: none;
+	color:#fff;
+}
+.grid .div4
+{
+	border-radius: 10px;
+	margin-left: 10px;
+	border:1px solid black;
+	
+}
+.grid .div4 .ram
+{
+	background-color: #fff;
+	margin-left: 16px;
+	width: 90%;
+	
+	border-radius: 10px;
+	box-shadow: 2px 2px 12px grey;
+
+}
+.grid .div4 .ram img
+{
+margin-top: 10px;
+ margin-left:80px;
+ border-radius: 50%;
+}
+.grid .div4 .ram b
+{
+	 margin-left:90px;
+	 font-family: Arial;
+	 color:grey;
+	 font-size: 20px;
+}
+.grid .div4 .ram p
+{
+	margin-left: 90px;
+	font-family: Arial;
+	 color:grey;
+	 font-size: 10px;
+}
+.grid .div4 .ram h5
+{
+	margin-left: 80px;
+	font-family: Arial;
+	 color:black;
+	 font-size:15px;
+}
+.grid .div4 .ram h5 :hover
+{
+	color: blue;
+}
+.grid .div4 .ram small
+{
+     font-family:Arial-Black;
+	 font-size: 15px; 
+}
+.grid .div4 .ram h4
+{
+	margin-left: 20px;
+	color:grey;
+	font-family: arial;
+}
+.grid .div4 .ram h3
+{
+	word-spacing: 23px;
+	margin-left: 40px;
+	color:black;
+	font-family: arial;
+}
+.eye
+{
+	display:inline-flex;
+   margin:10px;
+	margin-left: 33px;
+}
+#fou
+{
+	margin-left: 10px;
+	width: 92%;
+
+	border-radius: 10px;
+	
+	box-shadow: 2px 2px 12px grey;
+}
+.eye i
+{
+	margin:3px;
+}
+.grid .div5
+{
+	background-color: #fff;
+	border-radius: 10px;
+	border:1px solid black;
+    box-shadow: 2px 2px 12px grey;
+}
+.grid .div5 .nav ul
+{
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	margin-top:5px;
+	height: 20px;
+}
+.grid .div5 .nav ul li
+{
+	display: inline;
+
+}
+.grid .div5 .nav ul li a
+{
+	text-decoration: none;
+	margin:35px;
+	font-family: arial;
+	color: grey;
+}
+.grid .div5 .nav ul li a:hover
+{
+	color: #66C3F8;
+	text-decoration: underline;
+}
+.grid .div5 .nav 
+{
+  border-bottom:1px solid black;
+}
+.grid .div5 .mid img
+{
+	display: inline;
+	margin-left:5px;
+	margin-top: 5px;
+	padding: 0;
+	border:1px solid black;
+	border-radius: 50%;
+}
+.grid .div5 .mid 
+{
+	border:1px solid grey;
+	border-radius: 5px;
+	width: 97%;
+	height: 270px;
+	margin-top: 10px;
+	margin-left: 8px;
+	margin-right: 5px;
+}
+.grid .div5 .mid span strong
+{
+	margin-left: 10px;
+	font-size: 15px;
+	color: grey;
+}
+.grid .div5 .mid span b
+{
+	margin-left:80px;
+	font-size: 20px;
+	color:#4386CA;
+}
+.grid .div5 .mid span em
+{
+margin-left:80px;
+	font-size: 13px;
+	color:grey;
+}
+.grid .div5 .mid span small i
+{
+	float: right;
+	margin-right: 20px;
+}
+.grid .div5 .mid .dle
+{
+	border:1px solid grey;
+	border-radius: 5px;
+	height: 100px;
+	width: 90%;
+	margin-left: 35px;
+}
+.grid .div5 .mid .dle b 
+{
+	margin:20px;
+	word-spacing:10px;
+	font-family: Arial;
+	color: grey;
+}
+.grid .div5 .mid .dle b i
+{
+float: right;
+margin-right: 20px;
+}
+.grid .div5 .mid .dle p
+{
+	font-family: sans-serif;
+	margin-left: 2px;
+	color: solid black; 
+}
+.grid .div5 .mid small i
+{
+	margin:20px;
+}
+.grid .div5 .qwe
+{
+	border:1px solid grey;
+	width: 96%;
+	height: 160px;
+	margin-left: 10px;
+	border-radius: 10px;
+
+}
+.grid .div5 .qwe b img
+{
+	border-radius: 50%;
+	border:1px solid black;
+	margin-left: 5px;
+}
+.grid .div5 .qwe b
+{
+	font-family: arial;
+	color:#4386CA; 
+}
+.grid .div5 .qwe p  
+{
+	margin:3px;
+}
+.grid .div5 .qwe small i
+{
+	margin:3px;
+}
+.grid .div6
+{
+	background-color: #fff;
+	margin-right: 5px;
+	border-radius: 10px;
+	border:1px solid black;
+}
+.grid .div6 small 
+{
+	margin: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
+.grid .div6 small i
+{
+	float: right;
+	margin-right:10px;
+	margin-top:5px;
+}
+.grid .div6 .Trend ul li  
+{
+  list-style-type: none;
+  margin-left:0px;
+}
+.grid .div6 .Trend ul li b i
+{
+ float: right;
+ margin-right: 10px;
+}
+.grid .div6 .Trend  center
+{
+	color: grey;
+	font-family: arial;
+}
+.grid .div6 .frie  strong
+{
+  margin-left: 20px;
+}
+.grid .div6 .frie i
+{
+	float: right;
+	margin-right:20px;
+}
+.grid .div6 .frie ul 
+{
+ list-style-type: none;
+ margin:0px;
+}
+.grid .div6 .frie ul li img
+{
+   border-radius: 50%;
+   margin:3px;
+}
+.grid .div6 .frie ul li button
+{
+ float: right;	
+ border-radius: 2px;
+ margin-right: 7px;
+ background-color: blue;
+ color: white;
+ font-family: arial;
+}
